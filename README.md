@@ -11,3 +11,7 @@ Projekt do předmětu PV: klasifikace kategorie článků pomocí strojového u�
 ## Struktura
 
 - `ml_clanky_notebook.ipynb` – Jupyter notebook s postupem vytvoření modelu (načtení → předzpracování → trénování → vyhodnocení).
+- `predict.py` – Skript pro predikci kategorie z textu (vyžaduje `model.joblib` z notebooku). Spuštění: `python predict.py "text článku"`.
+- `requirements.txt` – Závislosti (pandas, scikit-learn, joblib).
+- `README_NOTEBOOK.txt` – Návod k notebooku (lokálně / Colab).
+- `CHECKLIST_ODEVZDANI.md` – Kontrolní seznam před odevzdáním.
