@@ -5,4 +5,7 @@ venv/
 .env
 *.joblib
 *.jsonl
+!data/articles_sample.jsonl
 *.gz
+env-filter.sh
+msg-filter.sh
